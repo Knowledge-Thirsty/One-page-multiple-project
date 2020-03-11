@@ -1,0 +1,277 @@
+/*=============================================================================================
+Resposive Design
+==============================================================================================*/
+
+/*=============================================================================================
+Extra Small devices (Less than 576px )
+===============================================================================================*/
+@media (max-width: 575px) {
+	html,body{
+		margin: 0;
+		padding: 0;
+		font-size: .7rem;
+	}
+	.navbar-nav a{
+		padding: 10px!important;
+	}
+
+	.slider{
+		margin-top: 80px;
+	}
+	.title h2{
+		font-size: 1.5rem;
+	}
+	.carousel-item {
+	    height: 350px!important;
+	}
+	.slider-content {
+	    padding: 0 70px;
+	}
+	.banner-title {
+	    font-size: 1.5rem;
+	}
+	.content-wrapper p{
+		font-size: 14px;
+	}
+	.single-service {
+	    padding: 0 80px;
+	}
+	.single-member{
+		padding: 0 80px;
+	}
+	.team-img {
+	    height: 150px!important;
+	    width: 150px!important;
+	}
+	.c-icon {
+	    font-size: 9px;
+	    margin-top: -6px;
+	}
+	.client-section p{
+		font-size: 10px;
+	}
+	.user-icon{
+		font-size: 9px;
+	}
+	.gallery-animate{
+		transform: scaleY(1);
+		visibility: visible;
+		transform-origin: top;
+	}
+	.img-height-width {
+	    height: 200px;
+	}
+	.img-height {
+	    height: 250px;
+	}
+	.blog-title h2{
+		font-size: 1.4rem;
+	}
+	.btn{
+		font-size: 10px;
+	}
+	.slider-content a.my-5{
+		margin: 0px 0!important;
+	}
+	.slider-content p{
+		margin: 1rem 0;
+	}
+	.widget-title h2{
+		font-size: 1.1rem;
+	}
+	.map iframe{
+		height: 200px;
+	}
+	.info li {
+	   	font-size: 12px;
+	}
+}
+/*=============================================================================================
+Small devices (landscape phones, 576px and up)
+===============================================================================================*/
+@media (min-width: 576px) {
+	html,body{
+		font-size: .8rem;
+	}
+	.slider{
+		margin-top: 80px;
+	}
+	.navbar-nav a{
+		padding: 15px!important;
+	}
+	.carousel-item {
+	    height: 350px!important;
+	}
+	.content-wrapper p{
+		font-size: 16px;
+	}
+	.team-img {
+	    height: 150px!important;
+	    width: 150px!important;
+	}
+	.c-icon {
+	    font-size: 10px;
+	    margin-top: -6px;
+	}
+	.client-section p{
+		font-size: 13px;
+	}
+	.user-icon{
+		font-size: 10px;
+	}
+	.gallery-animate{
+		transform: scaleY(1);
+		visibility: visible;
+		transform-origin: top;
+	}
+	.img-height-width {
+	    height: 200px;
+	}
+	.img-height {
+	    height: 250px;
+	}
+	.blog-title h2{
+		font-size: 1.5rem;
+	}
+	.btn{
+		font-size: 10px;
+	}
+	.slider-content a.my-5{
+		margin: 0px 0!important;
+	}
+	.slider-content p{
+		margin: 1rem 0;
+	}
+	.widget-title h2{
+		font-size: 1.1rem;
+	}
+	.map iframe{
+		height: 200px;
+	}
+}
+
+/*==============================================================================================
+Medium devices (tablets, 768px and up)
+===============================================================================================*/
+@media (min-width: 768px) { 
+	html,body{
+		font-size: .9rem;
+	}
+	.slider{
+		margin-top: 80px;
+	}
+	.navbar-nav a{
+		padding: 20px!important;
+	}
+	.carousel-item {
+	    height: 400px!important;
+	}
+	.gallery-animate{
+		transform: scaleY(0);
+		visibility: hidden;
+		transform-origin: top;
+		transition: all 0.5s ease-in-out;
+	}
+	.gallery-scroll{
+		transform: scaleY(1);
+		visibility: visible;
+	}
+	.btn {
+	    font-size: 12px;
+	}
+	.widget-title h2 {
+	    font-size: 1.3rem;
+	}
+}
+
+/*==============================================================================================
+ Large devices (desktops, 992px and up)
+ ==============================================================================================*/
+@media (min-width: 992px) { 
+		html,body{
+		margin: 0;
+		padding: 0;
+		font-size: 1rem;
+	}
+	.slider{
+		margin-top: 100px;
+	}
+	.navbar-nav a{
+		padding: 30px!important;
+	}
+	.carousel-item {
+	    height: 500px!important;
+	}
+	.title h2{
+		font-size: 2rem;
+	}
+	.banner-title {
+	    font-size: 2rem;
+	}
+	.content-wrapper p{
+		font-size: 1.5em;
+	}
+	.team-img {
+	    height: 180px!important;
+	    width: 180px!important;
+	}
+	.c-icon {
+	    font-size: 1rem;
+	    margin-top: -10px;
+	}
+	.client-section p{
+		font-size: 1.1rem;
+	}
+	.user-icon{
+		font-size: 1rem;
+	}
+	.gallery-animate{
+		transform: scaleY(0);
+		visibility: hidden;
+		transform-origin: top;
+		transition: all 0.5s ease-in-out;
+	}
+	.gallery-scroll{
+		transform: scaleY(1);
+		visibility: visible;
+	}
+	.img-height-width {
+	    height: 250px;
+	}
+	.img-height {
+	    height: 300px;
+	}
+	.blog-title h2{
+		font-size: 1.5rem;
+	}
+	.btn{
+		font-size: 1rem;
+	}
+	.slider-content a.my-5{
+		margin: 0px 0!important;
+	}
+	.slider-content p{
+		margin: 1.2rem 0;
+	}
+	.widget-title h2{
+		font-size: 1.3rem;
+	}
+	.map iframe{
+		height: 400px;
+	}
+}
+
+/*==============================================================================================
+Extra large devices (large desktops, 1200px and up)
+================================================================================================*/
+@media (min-width: 1200px) { 
+	.slider{
+		margin-top: 100px;
+	}
+	.navbar-nav a{
+		padding: 30px!important;
+	}
+	.img-height {
+	    height: 400px;
+	}
+}

@@ -1,0 +1,111 @@
+/*Scroll Magic Classes*/
+	/*css Classes*/
+
+	/*========================================================================================================
+		Service Section
+	========================================================================================================*/
+	.serviceLeft{
+		visibility: hidden;
+		transform: translateX(-300px);
+		transition: all 0.5s ease-in-out;
+	}
+	.serviceLeftScroll{
+		visibility: visible;
+		transform: translateX(0);
+	}
+	.serviceUp{
+		visibility: hidden;
+		transform: translateY(300px);
+		transition: all 0.5s ease-in-out;
+	}
+	.serviceUpScroll{
+		visibility: visible;
+		transform: translateY(0);
+	}
+	.serviceRight{
+		visibility: hidden;
+		transform: translateX(300px);
+		transition: all 0.5s ease-in-out;
+	}
+	.serviceRightScroll{
+		visibility: visible;
+		transform: translateX(0);
+	}
+	/*========================================================================================================
+		About Section
+	========================================================================================================*/
+	.aboutTitle{
+		visibility: hidden;
+		transform: translateY(-200px);
+		transition: all 0.5s ease-in-out;
+	}
+	.aboutTitleBottomScroll{
+		visibility: visible;
+		transform: translateY(0);
+	}
+	.aboutImage{
+		opacity: 0;
+		transform: translateY(-20px) scale(0);
+		transition: all 0.5s ease-in-out;
+	}
+	.aboutImageFade{
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+	.aboutImageContent{
+		visibility: hidden;
+		transform: translateY(200px);
+		transition: all 0.7s ease-in-out;
+	}
+	.aboutImageContentScroll{
+		visibility: visible;
+		transform: translateY(0);
+	}
+	/*========================================================================================================
+		Team Section
+	========================================================================================================*/
+	.teamTitle{
+		visibility: hidden;
+		transform: translateY(-200px);
+		transition: all 0.5s ease-in-out;
+	}
+	.teamTitleScroll{
+		visibility: visible;
+		transform: translateY(0);
+	}
+	.teamSlide{
+		visibility: hidden;
+		transform: translateY(50px);
+		transition: all 0.5s ease-in-out;
+	}
+	.teamSlideScroll{
+		visibility: visible;
+		transform: translateY(0);
+	}
+	/*========================================================================================================
+		Portfolio Section
+	========================================================================================================*/
+	.portfolioTitle{
+		visibility: hidden;
+		transform: translateY(-200px);
+		transition: all 0.5s ease-in-out;
+	}
+	.portfolioTitleScroll{
+		visibility: visible;
+		transform: translateY(0);
+	}
+	.gallery-animate{
+		transform: scaleY(0);
+		transition: all 0.5s ease-in-out;
+		visibility: hidden;
+		transform-origin: top;
+	}
+	.gallery-scroll{
+		transform: scaleY(1);
+		visibility: visible;
+	}
+	/*========================================================================================================
+		Contact Section
+	========================================================================================================*/
+	
+	/*jquery classes*/
